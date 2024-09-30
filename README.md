@@ -1,3 +1,3 @@
 # OpenMansAsshole
 
-##Gay
+##Github Account Assignment
