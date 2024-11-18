@@ -2,6 +2,23 @@
 @import "node_modules/bootstrap/scss/functions";
 
 // Step 2: Override variables
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-// Step 3: Import full Bootstrap to apply customizations
+$font-family-base: 'Montserrat', sans-serif;
+
+$beige: EFEBCE;
+$hunter-Green: 4B644A;
+$old-rose: C17C74;
+$carolina-blue: 74B3CE;
+$oxford-blue: 0C1B33;
+
+$primary: $beige;
+$success: $hunter-Green;
+$danger: $old-rose;
+$warning: $carolina-blue;
+$info: $oxford-blue;
+
+
+
+// Step 3: Import full Bootstrap to apply customizations;
 @import "node_modules/bootstrap/scss/bootstrap";
